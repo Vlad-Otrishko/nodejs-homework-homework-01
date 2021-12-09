@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-homework-homework-01",
+  "version": "1.0.0",
+  "description": "CLI Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad-Otrishko/nodejs-homework-homework-01.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "CLI",
+    "NPM"
+  ],
+  "author": "Vlad Otrishko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlad-Otrishko/nodejs-homework-homework-01/issues"
+  },
+  "homepage": "https://github.com/Vlad-Otrishko/nodejs-homework-homework-01#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
